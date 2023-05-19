@@ -3,8 +3,9 @@ body{
   border-color: grey;
   border-width: 1px;
 }
-.table{
-  border-left: none;
+td{
+  border: none;
+  
 }
 
 #flex-container1{
@@ -66,9 +67,32 @@ input[type=text] {
    font-size: 18px;
 }
 .state{
-  margin-left: 150px;
+  margin-left: 50px;
  
 }
 .postal_code{
-  margin-right: 800px;
+  margin-right: 700px;
 }
+
+.boxed{
+  display:flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-right: 86%;
+ background-color: gray;
+}
+
+
+.message1{
+
+    margin:10px 0;
+    font-size: 16px;
+    border-radius: 3px;
+    color:gray;
+    
+  }
+
