@@ -1,0 +1,74 @@
+body{
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+.table{
+  border-left: none;
+}
+
+#flex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 600px;
+    border: none;
+    font-size: 18px;
+}
+
+
+input[type=text] {
+    padding: 5px;
+    margin:10px 0;
+    font-size: 16px;
+    border-radius: 3px;
+    color:gray;
+    border: 1px solid lightgrey;
+    border-width: 2px;
+  }
+
+  .card{
+    margin-right:  35px;
+    width: 300px;
+    
+  }
+
+  .cvc{
+    margin-right: 35px;
+  }
+
+  .alert{
+    background-color: rgba(235, 188, 188, 0.973);
+    padding: 1px;
+    color: darkred;
+    border-radius: 4px;
+    margin: 10px;
+  }
+
+  #flex-container2{
+   display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-size: 18px;
+    
+    
+}
+  
+.last_name{
+  margin-left: 150px;
+
+}
+
+#flex-container3{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-size: 18px;
+}
+.state{
+  margin-left: 150px;
+ 
+}
+.postal_code{
+  margin-right: 800px;
+}
